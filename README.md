@@ -77,7 +77,7 @@ npm run dev
 ```
 
 Access the dashboard at:\
-http://localhost:5173/
+http://localhost:8000/
 
 ------------------------------------------------------------------------
 
