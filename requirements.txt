@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+httpx
+PyJWT
+requests
+psycopg[binary]
