@@ -15,12 +15,12 @@ and modular environment. Key capabilities include:
 
 -   Ingestion of structured JSON logs via RESTful API endpoints\
 -   Rule-based detection for common security scenarios, including:
-    -   Brute-force authentication attempts\
-    -   High-frequency web requests\
-    -   Impossible travel events\
-    -   Threshold-based anomaly detection\
--   Persistent storage of logs and alerts in a relational database\
--   Real-time alert streaming via WebSocket connections\
+    -   Brute-force authentication attempts
+    -   High-frequency web requests
+    -   Impossible travel events
+    -   Threshold-based anomaly detection
+-   Persistent storage of logs and alerts in a relational database
+-   Real-time alert streaming via WebSocket connections
 -   Interactive dashboard with visual analytics and alert monitoring
 
 ------------------------------------------------------------------------
@@ -30,10 +30,10 @@ and modular environment. Key capabilities include:
 The project is organized into the following components:
 
 -   **`backend/`** -- FastAPI service responsible for log ingestion,
-    detection logic, alerting, and metrics\
+    detection logic, alerting, and metrics
 -   **`detectors/`** -- Rule engine implementation with optional GeoIP
     integration\
--   **`database/`** -- Default SQLite database for local storage\
+-   **`database/`** -- Default SQLite database for local storage
 -   **`frontend/`** -- React (Vite) dashboard for real-time
     visualization\
 -   **`frontend-static/`** -- Lightweight, no-build fallback dashboard\
